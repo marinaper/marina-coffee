@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: #E6C3A7;
+}
+
+nav h1,
+nav .links {
+    display: inline-block;
+}
+
+nav h1 {
+    margin-right: 200px;
+
+
+
+}
+
+.links a {
+    margin: 0 10px;
+
+}
+
+nav {
+    background: #F4E9DD;
+    padding: 15px 30px;
+
+}
+
+.hero {
+    padding: 100px 50px;
+    color: #4E2C1E;
+
+}
+
+.hero span {
+    color: #8B5E3C;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin: 20px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.hero .des {
+    color: #6b5143;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+
+}
+
+
+.hero a {
+    border-radius: 50px;
+    background: #553020;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 1s;
+
+
+
+}
+
+.hero a:hover {
+    transform: scale(1.1);
+    background-color: #6F452D;
+
+}
+
+.hero {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("imgs/cover.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.links a:hover {
+    color: #8B5E3C;
+}
+
+.menu {
+    padding: 50px;
+    text-align: center;
+}
+
+.card {
+    width: 250px;
+    padding: 25px;
+    margin: 30px auto;
+    background-color: #F4E9DD;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    color: #8B5E3C;
+    margin-bottom: 10px;
+}
+
+.card span {
+    display: inline-block;
+    margin-top: 15px;
+    color: #8B5E3C;
+    font-weight: bold;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.card a {
+    display: inline-block;
+    text-decoration: none;
+    background: #8B5E3C;
+    border-radius: 50px;
+    color: white;
+    margin-top: 15px;
+    padding: 10px 20px;
+    transition: 1s;
+}
+
+.card a:hover {
+    transform: translate(10px);
+}
+
+.card .heart {
+    transition: 1s;
+    font-size: 30px;
+
+}
+
+.card .heart:hover {
+    transform: rotate(150deg);
+
+}
+
+.card:hover {
+    transform: translate(-10px);
+}
